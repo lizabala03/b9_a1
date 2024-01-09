@@ -159,6 +159,7 @@ body{
 .party-details{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     align-items: center;
+    justify-content: center;
     width: 1320px;
     height: 482px;
     position:relative;
@@ -199,9 +200,24 @@ body{
     border-radius: 8px;
     border-color: transparent;
     background: #F00;
-    display: inline-flex;
+    display: flex;
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    width: 30;
+    
+}
+#btn-design{
+    background-color: transparent;
+    border-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 16px 32px;
 }
